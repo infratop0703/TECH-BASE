@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=320, height=480, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"><!-- for smartphone. ここは一旦、いじらなくてOKです。 -->
+		<meta charset="utf-8">
+		<title>Calendar</title>
+		<link rel="stylesheet" href="calendar.css">
+
+	</head>
+
+	<body>
+		<div class="contents">
+			<!-- 年・月 -->
+			<h1 id="header"></h1>
+			<!-- カレンダー本体 -->
+			<div id="calendar"></div>
+			<script src="calendar.js"></script>
+			<!-- 切り替えボタン -->
+			<div id="next-back-button">
+				<button id="back" onclick="back()">back</button>
+				<button id="next" onclick="next()">next</button>
+			</div>
+		</div>
+  </body>
+</html>

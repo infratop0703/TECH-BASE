@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=320, height=480, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"><!-- for smartphone. ここは一旦、いじらなくてOKです。 -->
+		<meta charset="utf-8">
+		<title>mission1-07</title>
+
+	</head>
+
+	<body>
+    <div id = "omikuji">ここに表示</div>
+    <script>
+      var omikuji = ["大吉","中吉","小吉"];
+      var number1 = Math.random();
+      var number2 = number1 * 3;
+      var number3 = Math.floor(number2);
+      var message = (omikuji[number3]);
+      var object = document .getElementById("omikuji");
+      object.innerText = message;
+    </script>
+  </body>
+</html>

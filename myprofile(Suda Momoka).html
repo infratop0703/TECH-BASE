@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=320, height=480, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"><!-- for smartphone. ここは一旦、いじらなくてOKです。 -->
+		<meta charset="utf-8">
+		<title>須田百香のプロフィール</title>
+
+	</head>
+
+	<body>
+
+
+	<h1 class="midashi_1"> 須田百香のプロフィール </h1>
+
+
+	<img src="gazou.png" alt="よく使うアイコン" title="プロフィール画像" width="320px" ><br>
+	SNSでよくつかっているフリーアイコンです。あだ名が団子になりつつあります（笑）
+
+	<hr>
+
+	<h2>所属</h2>
+		サークル…ボードゲームサークル<br>
+		アルバイト…塾講師（最近長期インターンでプログラミングメンターも始めました）<br>
+
+
+	<h2>趣味</h2>
+		TRPGやボードゲームが好きです。<br>
+		TRPGという単語でピンときた方はぜひお話したいです<br>
+
+
+	<!-- HTMLで出来る色々な表現を試す -->
+	<!-- ↑文字に意味を持たせることもできます。strong は太字。ググったりして色々と調べてみましょう -->
+	<!-- 例として今回は「リスト表示」を作ってみましょう。項目数が３で足りないなら足してもOKです -->
+	<!-- 番号をふるなら ol タグ、番号がいらないなら ul タグ で囲って、項目は li タグで括ります。 -->
+	<!-- ol ・ ul 片方でOK -->
+	<h2>好きな色トップ３</h2>
+	<strong> 私の好きな色のトップ３です！</strong><br>
+	<!-- ↑文字に意味を持たせることもできます。strong は強調。太字になります。 -->
+
+	<ol>
+		<li style="color:lightpink"> 薄桃色</li>
+		<li style="color:darkviolet"> 紫 </li>
+		<li> 黒</li>
+	</ol>
+
+	<h2>最近見て面白かったアニメ</h2>
+	<ul>
+		<li> リコリス・リコイル</li>
+		<li> 吸血鬼すぐ死ぬ</li>
+		<li> ONEPIECE</li>
+	</ul>
+
+	<hr>
+
+	<!-- 以下は、見出しの名前は固定で、内容を編集してみましょう -->
+	<h2>その他</h2>
+	<!-- 見出し 第３レベル -->
+	<h3>使用PC</h3><!-- 編集して、自分の使うPCだけ残しましょう -->
+	Windows
+
+	<h3>PCの普段の使い方</h3>
+	オンラインツールを使ってTRPGをやっています。大人数でやるのが好きなのですが、各々の予定を合わせるのが難しいです<br>
+	YouTubeやアニメもよく見ます。
+
+	<h3>強み</h3>
+	強み：計画性があります。何事も早くから行動できます。<br>
+	弱み：自分の意見を言うときに後手に回ってしまいます。<br>
+
+
+	<h3>TECH-BASE参加にあたり、意気込み</h3>
+	プログラミング技術をしっかり身に着けたいです！頑張ります！<br>
+
+
+	<hr>
+	<a href="#midashi_1"> このページのTOPへ </a> ／ <a href="https://www.google.co.jp/" target="_blank"> ググる </a>
+
+	<hr>
+
+	<!-- 以下は投稿フォーム欄ですが、今は＆このままでは機能しておらずエラーが発生します。 -->
+	<!-- したがって今はコピペするだけでOKです。スタートアップ以降のPHPミッションを進める際に、参考にしてください。 -->
+	<form method="POST" action="">
+		お名前：<input type="text" name="name"><br>
+		コメント：<input type="text" name="comment"><br>
+		<input type="submit" name="submit" value="送信">
+	</form>
+
+	</body>
+</html>

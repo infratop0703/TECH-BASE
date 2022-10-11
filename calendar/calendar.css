@@ -1,0 +1,92 @@
+/* cssの初期化 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contents{
+  max-width: 800px;
+  margin: 0 auto;
+  color: #666;
+}
+
+#header{
+  text-align: center;
+  font-size: 24px;
+  width: 100%;
+  margin: 10px;
+}
+
+#calendar {
+  text-align: center;
+  width: 100%;
+}
+
+table{
+  outline: 2px solid #ddd;
+  width: 100%;
+}
+
+th{
+  color: #000;
+}
+
+th,td{
+  outline: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* 日曜日(最初のtd) */
+td:first-child {
+  color: rgb(230, 138, 153);
+}
+
+/* 土曜日(最後のtd) */
+td:last-child {
+  color: rgb(78, 78, 218);
+}
+
+/*前後月の日付*/
+td.disabled {
+  color: rgb(224, 212, 212);
+}
+
+/* 今日 */
+td.today{
+  background-color: rgb(134, 226, 195);
+  color: #fff;
+}
+
+#next-back-button{
+  position: relative;
+}
+
+#next-back-button button{
+  cursor: pointer; /* カーソルを当てたら反応 */
+  background-color: #ff43e6;
+  color: #fff;
+  border: 1px solid #ff43e6;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+}
+
+/* カーソルを当てたときの色 */
+#next-back-button button:hover{
+  background-color: #f88fea;
+  border-color: #f88fea;
+}
+
+/* 左寄せ */
+#back {
+  float: left;
+}
+
+/* 右寄せ */
+#next {
+  float: right;
+}
